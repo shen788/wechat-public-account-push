@@ -8,7 +8,7 @@ export const config = {
     // 公众号APP_SECRET
     APP_SECRET: "445c1890a92f3fc132ceb3012546a56a",
     // 模板消息id
-    TEMPLATE_ID: "sFr5I9kc_xr3n3QHtUn__SRE5GI2LVDrBlMLz1gV7Cg",
+    TEMPLATE_ID: "	PNnFTCFJ9xOprhfBxNjUQLwli27ypUksjPq8GifxkTc",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
     USERS: ["oPlSd5_r3SLuVjIrnKqBuhMBTFsA","oPlSd5yAnuq52UmwcZgfXI5MFfuQ"],
      
@@ -27,7 +27,7 @@ export const config = {
 
     // 生日，修改名字为对应需要显示的名字, data 仅填月日即可, 请严格按照示例填写
     BIRTHDAYS: [
-      {"name": "老婆", "year": "2003", "date": "09-13"},
+      {"name": "老婆", "year": "2002", "date": "09-13"},
       
     ],
 

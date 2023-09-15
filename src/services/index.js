@@ -140,6 +140,7 @@ export const getBirthdayMessage = () => {
         if (birthdayMessage) {
             resMessage += `${birthdayMessage} \n`
         }
+        resMessage+='生日倒计时出不来了啦'
     })
 
     return resMessage

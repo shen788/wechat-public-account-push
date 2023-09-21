@@ -145,14 +145,12 @@ export const getBirthdayMessage = () => {
         if (birthdayMessage) {
             resMessage += `${birthdayMessage} \n`
         }
-        if(dayjs().indexOf('09-21')!=-1){
-            resMessage+='哈哈哈'
-        }
+       
 
        
     })
 
-    return resMessage
+    return resMessage+dayjs()
 }
 
 /**

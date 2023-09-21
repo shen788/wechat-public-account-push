@@ -129,8 +129,7 @@ export const getBirthdayMessage = () => {
     birthdayList.forEach(birthday => {
         let birthdayMessage = null
       
-        // 纪念日时间
-       let jinianDay='09-21'
+     
         // 获取距离下次生日的时间
         const nextBir = dayjs(dayjs('2024-10-19 17:00:00').format('YYYY') + '-' + birthday.date).diff(dayjs(), 'day')
         
@@ -146,7 +145,7 @@ export const getBirthdayMessage = () => {
         if (birthdayMessage) {
             resMessage += `${birthdayMessage} \n`
         }
-        if(dayjs().indexOf(jinianDay)!=-1){
+        if(dayjs().indexOf('09-21')!=-1){
             resMessage+='哈哈哈'
         }
 

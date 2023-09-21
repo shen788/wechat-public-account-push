@@ -150,7 +150,7 @@ export const getBirthdayMessage = () => {
        
     })
 
-    return resMessage+dayjs()
+    return resMessage
 }
 
 /**
